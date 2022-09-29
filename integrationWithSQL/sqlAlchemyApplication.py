@@ -19,6 +19,10 @@ Base = declarative_base()
 
 
 class User(Base):
+    """
+        Esta classe representa a tabela user_account dentro
+        do SQlite.
+    """
     __tablename__ = "user_account"
     # atributos
     id = Column(Integer, primary_key=True)
